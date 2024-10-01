@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- required -->
+
+
+    <form action="thankyou.html" method="post">
+        <label for="fname">first name:</label>
+        <input type="text" name="fname" required> <br><br>
+        <lable for="lname">last name</lable>
+        <input type="text" name="lname"><br>
+        <br>
+        <input type="submit"><br><br>
+    
+    </form><br>
+
+
+<!-- readonly -->
+
+    <form action="thankyou.html" method="post">
+        <lable for="fnmae"> user name</lable>
+        <input type="text" name="fname" value="sanket" readonly><br><br>
+        <label for="lname">password</label>
+        <input type="text" name="lname"><br><br>
+        <input type="submit"><br><br>
+    </form>
+    <br>
+    <br>
+
+
+<!-- maxlength minlength -->
+
+    <form action="thankyou.html" method="post">
+        <lable for="fname"> user name</lable>
+        <input type="text" name="fname" maxlength="10"><br><br>
+        <label for="lname">password:</label>
+        <input type="text" name="lname" minlength="6"><br><br>
+        <input type="submit" value="submit"></form>
+        <br><br>
+</body>
+
+
+<!-- placeholder -->
+
+<form action="thankyou.html" method="post">
+        <lable for="fname"> user name</lable>
+        <input type="text" name="username" placeholder="enter user name"><br><br>
+        <label for="lname">password: </label>
+        <input type="text" name="password" placeholder="enter password"><br><br>
+        <input type="submit" value="submit">
+    </form>
+        <br><br>
+        <br><br>
+
+
+
+
+        <!-- textarea -->
+
+        <form action="thankyou.html" method="post">
+        <lable for="fname"> first name</lable>
+        <input type="text" name="fname" required><br><br>
+        <label for="lname">last name</label>
+        <input type="text" name="lname"><br><br>
+        <label name="address">adderss</label><br>
+        <textarea name="text" rows="4" cols="40">pune</textarea><br>
+        <input type="submit" value="submit">
+        </form>
+        <br><br>
+        <br><br>
+
+
+        <!-- select -->
+
+        <from action="thanks" method="post">
+        <label name="city">choose a city </label>  
+        <select name="city" multiple size="4">
+         <option value="pune">pune</option>
+         <option>mumbai</option>
+         <option>sangli</option>
+         <option>nagpur</option>
+         <option selected>beed</option>
+
+            
+        </select> <br><br>
+
+        </from>
+        <br>
+        <br>
+        <br>
+
+        <!-- checkbox -->
+         <from>
+
+        <input type="checkbox" name="drinks" value="coffee">
+        <label name="coffee">coffee</label><br>
+        <input type="checkbox" name="tea" value="tea" checked>
+        <label name="tea">tea</label><br>
+        <input type="checkbox" name="drinks" value="greentea">
+        <lable for="greentea"> green tea</lable><br><br><br>
+
+
+        <!-- radio -->
+         <input type="radio" name="gender" value="male">
+         <label name="male">male</label>
+         <input type="radio" name="gender" value="female">
+         <lable name="female"> female</lable><br><br>
+         <input type="button" name="add" value="add">
+</from>
+</html>
