@@ -1,36 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h3, figcaption {
+            text-align: center;
+        }
+
+        .projects-row {
+            display: flex;
+            justify-content: space-around; /* Space around images */
+            flex-wrap: wrap; /* Wrap to next row if needed */
+            margin-bottom: 20px; /* Space between rows */
+        }
+
+        .projects-row img {
+            width: 500px; /* Each image takes about 30% of the row */
+            height: 400px;
+        }
+        header img{
+            height: 400px;
+            width: 100%;
+        }
+
+        
+    </style>
 </head>
-<body>
+
+<body style="background-color: rgb(214, 193, 77);">
+    <header class="header">
     <div>
-        <img src="samrajya.jpg" width="1500" height="300"></div>
+        <img src="samrajya.jpg">
+    </div>
+</header>
+    <div>
+        <h3>
+            <a href="ContactUs.html">Contact Us</a> |
+            <a href="Enquiryform.html">Enquiry</a>
+        </h3>
+        
+    </div>
+    <h1><b><u>OUR ONGOING PROJECTS IN PUNE</u></b></h1>
+    <!-- First row of projects -->
+    <div class="projects-row">
+        <figure>
+            <img src="rawhouse.jpg" alt="Row House Hadapsar">
+            <figcaption><h3>Row House Hadapsar</h3></figcaption>
+        </figure>
+
+        <figure>
+            <img src="enteriar design.jpg" alt="Interior Design">
+            <figcaption><h3>Interior Design</h3></figcaption>
+        </figure>
+        <figure>
+            <img src="villa.jpg" alt="Villa Lonavla" height="196">
+            <figcaption><h3>Villa Lonavla</h3></figcaption>
+        </figure>
     </div>
 
-    <div>
-        <span align="center">
-            <h3>
-                <a href="ContactUs.html">ContactUs</a>
-            <a href="Enquiryform.html">Enquiry</a>
-            </h3> 
-        </span>
+    <!-- Second row of projects -->
+    <div class="projects-row">
+        <figure>
+            <img src="apartment.jpg" alt="Samrajya Heights Loni" height="196">
+            <figcaption><h3>Samrajya Heights Loni</h3></figcaption>
+        </figure>
+
+        <figure>
+            <img src="house.jpg" alt="House Kharadi" height="196">
+            <figcaption><h3>House Kharadi</h3></figcaption>
+        </figure>
+        <figure>
+            <img src="Bungalow House .jpg" alt="Bungalow in Whagholi" height="196">
+            <figcaption><h3>Bungalow in Whagholi</h3></figcaption>
+        </figure>
     </div>
-    <table>
-        <tr><td><figure >
-            <img src="rawhouse.jpg"  width="350"></figure>
-            <figcaption><h3 align="center">Row House</h3></figcaption>
+
+    <!-- Third row of projects -->
+     <div class="projects-row">
+        
+   
+     </div>
+
+    <table style="text-align: center;">
+        <tr>
+            <td>
+                <h2><b><i>Mission</i></b></h2>
+                <h3><i>We strive to deliver more than just living spaces. Our mission is to empower our customers by
+                    providing value for money when it comes to residential/commercial projects in Pune and create
+                    an identity through unparalleled benchmarks in terms of delivery and conduct. Increasing the
+                    standard of living, providing sustainable quality and building customer relationships on the
+                    foundation of trust and integrity are at the core of our purpose.</i></h3>
             </td>
-            <td><figure>
-                <img src="enteriar design.jpg" width="350">
-            </figure><figcaption><h3 align="center">Interiar Design</figcaption></td>
-                <td><figure>
-                    <img src="Bungalow House .jpg" width="350">
-                </figure></td>
+        </tr>
+        <tr>
+            <td>
+                <h2><b><i>Vision</i></b></h2>
+                <h3><i>Samrajya Developers are among the best property builders in Pune renowned for making luxury
+                    affordable and accessible. Renowned for the timely completion of our projects and surpassing
+                    industry standards of quality, our direction of growth is set by our vision of consistency and
+                    innovation. We aspire to continuously adapt to the growing changes and needs of our customers by
+                    building futuristic landmarks that grace the skyline of the city.</i></h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2><b><i>|| WE BUILD WITH TRUST ||</i></b></h2>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <h1>thank You For Visiting Samrajya Developers... </h1>
+            </td>
         </tr>
     </table>
-    
+
 </body>
+
 </html>
