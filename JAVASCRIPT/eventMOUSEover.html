@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--1 mouse over and mouser out -->
+
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)"
+    style="background-color: blue; width: 120px; height: 20px; padding: 40px;">mouse over mi</div>
+<script>
+    function mOver(obj){
+    
+        obj.innerHTML= "thank you"
+    }
+    function mOut(obj){
+        obj.innerHTML="mouse over mi"
+
+    }
+</script>
+    </div>
+</body>
+</html>
